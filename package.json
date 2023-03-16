@@ -30,7 +30,7 @@
 	"dependencies": {
 
 		"@mailchimp/mailchimp_marketing": "^3.0.78",
-		"@sentry/nextjs": "^7.14.1",
+
 		"@svgr/webpack": "6.3.1",
 		"autoprefixer": "^10.4.8",
 		"browserslist": "4.21.3",
