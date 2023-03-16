@@ -1,9 +1,7 @@
 import { ICaseStudy } from '@types';
 
-import { gql } from '@apollo/client';
 import Image from 'next/image';
 import { NextPage } from 'next';
-import { RichText } from '@graphcms/rich-text-react-renderer';
 
 import { AnimatePage } from 'Atoms/AnimatePage';
 import { Button } from 'Atoms/Button';
@@ -12,7 +10,7 @@ import { FloatingImages } from 'Atoms/FloatingImages';
 import { SeoHead } from 'Atoms/SeoHead';
 
 import { mapCaseStudies } from 'Utils/mappings/mapCaseStudies';
-import { mdxComponents } from 'Utils/mdxComponents';
+
 
 interface IProps {
 	caseStudy: ICaseStudy;
@@ -76,75 +74,16 @@ const CaseStudyPage: NextPage<IProps> = ({ caseStudy }) => {
 						/>
 					</div>
 				</div>
-				<RichText content={content} renderers={mdxComponents} />
+
 			</Container>
 		</AnimatePage>
 	);
 };
 
 export async function getStaticPaths() {
-	const { data } = await client.query({
-		query: gql`
-			query CaseStudiesQuery {
-				caseStudies {
-					slug
-					title
-				}
-			}
-		`,
-	});
 
-	return {
-		paths: data.caseStudies.map(({ slug }: ICaseStudy) => ({
-			params: { slug },
-		})),
-		fallback: false,
+	type Params = {
+		params: { slug: ICaseStudy['slug'] };
 	};
 }
-
-type Params = {
-	params: { slug: ICaseStudy['slug'] };
-};
-
-export async function getStaticProps({ params }: Params) {
-	const { data } = await client.query({
-		query: gql`
-			query CaseStudyPageQuery($slug: String!) {
-				caseStudy(where: { slug: $slug }) {
-					id
-					title
-					slug
-					projectUrl
-					seoDescription
-					client {
-						name
-						logo {
-							url
-						}
-					}
-					content {
-						raw
-					}
-					technologies {
-						skill
-					}
-					primaryImage {
-						url
-					}
-					secondaryImages {
-						url
-					}
-				}
-			}
-		`,
-		variables: { slug: params.slug },
-	});
-
-	return {
-		props: {
-			caseStudy: mapCaseStudies([data.caseStudy])[0],
-		},
-	};
-}
-
 export default CaseStudyPage;

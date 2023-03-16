@@ -1,4 +1,4 @@
-import { mockJobs } from 'MockData';
+
 import { WorkExperience, WorkExperienceProps } from './WorkExperience';
 
 export default {
@@ -12,5 +12,5 @@ export const WorkExperienceStory = (args: WorkExperienceProps) => (
 
 WorkExperienceStory.storyName = 'WorkExperience';
 WorkExperienceStory.args = {
-	jobs: mockJobs,
+
 };

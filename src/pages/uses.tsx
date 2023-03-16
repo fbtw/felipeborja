@@ -5,8 +5,11 @@ import profilePic from '../../public/assets/screenshot 2 demo.jpeg';
 import { AnimatePage } from 'Atoms/AnimatePage';
 import { Container } from 'Atoms/Container';
 import { SeoHead } from 'Atoms/SeoHead';
+import {IEducation} from "@types";
+
 
 interface IProps {
+	education: IEducation[];
 	//markdown: RichTextContent;
 	//<RichText content={markdown} renderers={mdxComponents}/>
 }
@@ -23,7 +26,7 @@ const UsesPage: NextPage<IProps> = ({  }) => {
 					Projects
 				</h1>
 				<p className="my-4 text-xl md:text-2xl lg:text-4xl ">
-					Here are some of the projects I've made or volunteer for
+					Here are some of the projects I&apos;ve made or volunteer for
 				</p>
 				<h1 className="headline text-xl md:text-2xl lg:text-4xl my-8">
 					Simulador de Votaciones (2022 - *)
@@ -54,7 +57,7 @@ const UsesPage: NextPage<IProps> = ({  }) => {
 				</p>
 				<h1 className="headline text-xl md:text-2xl lg:text-4xl mt-8">Spher App (2020)</h1>
 				<p className="my-8 text-lg md:text-xl lg:text-2xl">
-					Volunteer job, a small foundation from Denmark and Sweden focused on women safety and women's rights
+					Volunteer job, a small foundation from Denmark and Sweden focused on women safety and women&apos;s rights
 					<br/>
 					I helped with the design and error fixing using Flutter, testing and spanish translations.
 				</p>
@@ -72,7 +75,7 @@ const UsesPage: NextPage<IProps> = ({  }) => {
 					It started as a restaurant catalog, then more functionality was added to support all kind of small
 					businesses and personal services
 				</p>
-				<h1 className="headline text-xl md:text-2xl lg:text-4xl mt-8">Chef's Bios (2016)</h1>
+				<h1 className="headline text-xl md:text-2xl lg:text-4xl mt-8">Chef&apos;s Bios (2016)</h1>
 				<p className="my-8 text-lg md:text-xl lg:text-2xl">
 					PHP and Laravel website, it was a job seeking and recruitment platform specialized on gourmet restaurants and bar
 				</p>

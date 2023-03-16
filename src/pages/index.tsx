@@ -56,11 +56,11 @@ const IndexPage = () => {
 						Hi! my name is Felipe Borja
 					</h1>
 					<p className="my-8 text-lg md:text-xl lg:text-2xl">
-						I'm a software developer from Argentina with over 14 years of programming experience,
+						I&apos;m a software developer from Argentina with over 14 years of programming experience,
 						specialised in mobile, web and backend development, QA testing, server maintenance and tech support.
-						I've studied on both in-person and remote universities, finished a dozen of online courses.<br/>
-						Professionally I've worked on several international consultancy companies and as a government contractor.
-						I've have several personal projects, freelance jobs and also I've work as a volunteer for nonprofit organizations, my favorite tools are{' '}
+						I&apos;ve studied on both in-person and remote universities, finished a dozen of online courses.<br/>
+						Professionally I&apos;ve worked on several international consultancy companies and as a government contractor.
+						I&apos;ve have several personal projects, freelance jobs and also I&apos;ve work as a volunteer for nonprofit organizations, my favorite tools are{' '}
 						<Typed
 							loop
 							typeSpeed={50}
@@ -124,10 +124,10 @@ const IndexPage = () => {
 						collaborating with you throughout the process to grow your team as needed.
 					</p>
 					<p className="my-4 text-lg md:text-xl lg:text-2xl">
-						Whether it's a complete overhaul of your existing product or the addition of a single new feature, I have the expertise to assist you. With my experience developing a variety of enterprise software stacks using the latest open source frameworks, as well as cloud-based solutions that enhance user experience while minimizing costs.
+						Whether it&apos;s a complete overhaul of your existing product or the addition of a single new feature, I have the expertise to assist you. With my experience developing a variety of enterprise software stacks using the latest open source frameworks, as well as cloud-based solutions that enhance user experience while minimizing costs.
 					</p>
 					<p className="my-4 text-lg md:text-xl lg:text-2xl">
-						I provide consulting services to businesses and organizations that want to create scalable and high-performing web solutions. By thoroughly understanding my clients' needs, I can guide them in making informed decisions regarding software architecture and technology stacks.
+						I provide consulting services to businesses and organizations that want to create scalable and high-performing web solutions. By thoroughly understanding my client&apos;s needs, I can guide them in making informed decisions regarding software architecture and technology stacks.
 					</p>
 
 					<h3 className="headline mt-20 text-xl md:text-2xl lg:text-4xl">
@@ -147,7 +147,7 @@ const IndexPage = () => {
 					<div className="grid grid-cols-2">
 
 						<h3 className="m-20 font-bold text-xl md:text-2xl lg:text-3xl">
-							Projects I've work on
+							Projects I&apos;ve work on
 							<a className="underlined font-bold relative border-b-2 border-grey-300 dark:border-grey-700 hover:border-b-0" href={'/uses'} > -{'>'} </a>
 
 						</h3>

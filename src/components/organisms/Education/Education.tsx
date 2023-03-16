@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import { IEducation } from '@types';
 
-import { School } from 'Molecules/School';
+
 
 export interface EducationProps {
 	education: IEducation[];
@@ -21,12 +21,7 @@ const Education = ({ education }: EducationProps) => {
 						)}
 						key={course}
 					>
-						<School
-							course={course}
-							date={date}
-							institute={institute}
-							technologies={technologies}
-						/>
+
 					</div>
 				)
 			)}
