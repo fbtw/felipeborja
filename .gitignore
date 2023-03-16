@@ -43,5 +43,4 @@ tsconfig.tsbuildinfo
 /.idea/
 /.idea/*
 .storybook
-@types
 _templates
