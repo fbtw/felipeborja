@@ -2,6 +2,7 @@
 import { NextPage } from 'next';
 import Imagen from 'next/image';
 import profilePic from '../../public/assets/screenshot 2 demo.jpeg';
+import pajaroPic from '../../public/assets/pajaro.jpeg';
 import { AnimatePage } from 'Atoms/AnimatePage';
 import { Container } from 'Atoms/Container';
 import { SeoHead } from 'Atoms/SeoHead';
@@ -18,8 +19,8 @@ const UsesPage: NextPage<IProps> = ({  }) => {
 	return (
 		<AnimatePage>
 			<SeoHead
-				title="Projects"
-				description="This is a comprehensive list of tech equipment and software I use for my day-to-day work as a software engineer in the UK."
+				title="Felipe Borja | Projects"
+				description="Some of my Projects and volunteer work that I've done"
 			/>
 			<Container>
 				<h1 className="headline text-3xl md:text-5xl lg:text-6xl my-8">
@@ -29,7 +30,26 @@ const UsesPage: NextPage<IProps> = ({  }) => {
 					Here are some of the projects I&apos;ve made or volunteer for
 				</p>
 				<h1 className="headline text-xl md:text-2xl lg:text-4xl my-8">
-					Simulador de Votaciones (2022 - *)
+					Pájaro Pelotú (2023 - 2024)
+				</h1>
+				<div className="grid grid-cols-2 gap-6">
+					<p className="my-8 text-lg md:text-xl lg:text-2xl">
+						Flutter multi-platform mobile game, right available only on Android.
+						It uses Google's play game API to support Leaderboards.
+						<br/><br/>
+						You can play it on Google play store
+						<a className="underlined font-bold relative border-b-2 border-grey-300 dark:border-grey-700 hover:border-b-0" href={'https://play.google.com/store/apps/details?id=pajaro.pelotudo'} > here </a>
+					</p>
+					<Imagen
+						src={pajaroPic}
+						alt="App screenshot"
+						width={200}
+						height={500}
+					/>
+				</div>
+
+				<h1 className="headline text-xl md:text-2xl lg:text-4xl my-8">
+					Simulador de Votaciones (2022 - 2023)
 				</h1>
 				<div className="grid grid-cols-2 gap-6">
 					<p className="my-8 text-lg md:text-xl lg:text-2xl">
@@ -43,7 +63,7 @@ const UsesPage: NextPage<IProps> = ({  }) => {
 					</p>
 					<Imagen
 						src={profilePic}
-						alt="Picture"
+						alt="App screenshot"
 						width={400}
 						height={500}
 					/>

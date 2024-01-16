@@ -35,7 +35,7 @@ const IndexPage = () => {
 		<AnimatePage>
 			<SeoHead
 				title="Felipe Borja | Portfolio"
-				description="A Front-End Software Engineer with a focus on JavaScript and React. I have more than 10 years experience working in software engineering and consulting."
+				description="A Full-Stack Software Engineer with a focus on Flutter, Android and JS. I have more than 15 years experience working in software engineering and consulting."
 				keywords={[
 					'Software Engineer',
 					'Felipe Borja',
@@ -75,15 +75,15 @@ const IndexPage = () => {
 						.
 					</p>
 					<p className={" text-lg md:text-xl lg:text-2xl"}>
-						You can find more info about my resume on {''}
+						You can find some of my repos at {''}
 						<a
-							href="https://linkedin.com/in/felipeBorja-"
-							title="Link to Linkedin resume"
+							href="https://github.com/fbtw"
+							title="Button with link"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="underlined font-bold relative border-b-2 border-grey-300 dark:border-grey-700 hover:border-b-0"
 						>
-							Linkedin
+							Github
 						</a>
 						.
 					</p>

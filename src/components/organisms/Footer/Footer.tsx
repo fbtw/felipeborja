@@ -11,16 +11,6 @@ const Footer = () => {
 						url: 'https://www.github.com/fbtw',
 						icon: 'GITHUB',
 					},
-					{
-						name: 'LinkedIn',
-						url: 'https://www.linkedin.com/in/FelipeBorja-',
-						icon: 'LINKEDIN',
-					},
-					{
-						name: 'ko-fi',
-						url: 'https://ko-fi.com/simvot',
-						icon: 'TWITTER',
-					},
 				]}
 			/>
 		</footer>

@@ -16,14 +16,23 @@ const CaseStudiesPage: NextPage<IProps> = ({ caseStudies }) => {
 	return (
 		<AnimatePage>
 			<SeoHead
-				title="Software Engineering Case Studies – Felipe Borja"
-				description={`Here you can find 0 case studies of projects I have worked on over the last few years. Learn how I have overcome challenges.`}
+				title="Felipe Borja | Experience"
+				description={`My formal experience`}
 			/>
 			<Container>
 				<h1 className="headline text-3xl md:text-5xl lg:text-6xl pb-8 mt-8">
 					Formal Experience
 				</h1>
 
+				<h2 className="font-bold text-xl md:text-2xl mt-12 mb-4">IT support</h2>
+				<p className="my-4">
+					PC Repair shop, Argentina / 2023
+				</p>
+				<p className="my-4 text-lg md:text-xl lg:text-2xl">
+					A small repair shop with stable client list, brings remote IT support and office PC repair.
+					I worked receiving calls and giving support through helpdesk and making standardized
+					Windows OS install procedures.
+				</p>
 				<h2 className="font-bold text-xl md:text-2xl mt-12 mb-4">Maintenance and office work </h2>
 				<p className="my-4">
 					Notaría 46, Ecuador / 2020 – 2021
