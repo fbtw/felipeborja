@@ -41,7 +41,7 @@ const UsesPage: NextPage<IProps> = ({  }) => {
 					</div>
 					<p className="my-8 text-lg md:text-xl lg:text-2xl">
 						Flutter multi-platform mobile game, right available only on Android.
-						It uses Google's play game API to support Leaderboards.
+						It uses Google&apos;s play game API to support Leaderboards.
 						<br/><br/>
 						You can play it on Google play store
 						<a className="underlined font-bold relative border-b-2 border-grey-300 dark:border-grey-700 hover:border-b-0" href={'https://play.google.com/store/apps/details?id=pajaro.pelotudo'} > here </a>
