@@ -120,17 +120,14 @@ const IndexPage = () => {
 						Software Consultancy
 					</h3>
 					<p className="my-4 text-lg md:text-xl lg:text-2xl">
-						I specialize in assisting startups and established businesses in identifying the appropriate tech stack for their project,
-						collaborating with you throughout the process to grow your team as needed.
+						I specialize in aiding startups and established businesses in selecting the right tech stack for their projects, collaborating throughout to support team expansion.
+						Whether it&apos;s a comprehensive overhaul or the addition of a single feature, I bring expertise in developing enterprise software stacks using cutting-edge open source frameworks and cost-effective cloud-based solutions to improve user experience.
 					</p>
 					<p className="my-4 text-lg md:text-xl lg:text-2xl">
-						Whether it&apos;s a complete overhaul of your existing product or the addition of a single new feature, I have the expertise to assist you. With my experience developing a variety of enterprise software stacks using the latest open source frameworks, as well as cloud-based solutions that enhance user experience while minimizing costs.
-					</p>
-					<p className="my-4 text-lg md:text-xl lg:text-2xl">
-						I provide consulting services to businesses and organizations that want to create scalable and high-performing web solutions. By thoroughly understanding my client&apos;s needs, I can guide them in making informed decisions regarding software architecture and technology stacks.
+						I offer consulting services to businesses seeking scalable and high-performing web solutions. By deeply understanding my client&apos;s needs, I guide them in making informed decisions on software architecture and technology stacks for optimal outcomes.
 					</p>
 
-					<h3 className="headline mt-20 text-xl md:text-2xl lg:text-4xl">
+					<h3 className="headline mt-10 text-lg md:text-xl lg:text-2xl">
 						Website & App Development
 					</h3>
 					<p className="my-4 text-lg md:text-xl lg:text-2xl">
@@ -140,6 +137,15 @@ const IndexPage = () => {
 						As a consultant in web and mobile development, I guide my clients in creating top-notch digital products that meet their business needs. My services go beyond simply building websites and apps; I strive to ensure that they are visually appealing, speedy, and inclusive. Together, we can unlock your full potential.
 					</p>
 
+					<h3 className="headline mt-10 text-lg md:text-xl lg:text-2xl">
+					Voluntary Work & Open Source Collaboration
+					</h3>
+					<p className="my-4 text-lg md:text-xl lg:text-2xl">
+					Throughout my career as a software developer, I&apos;ve actively engaged in open source projects, contributing to code enhancements, bug resolutions, and participating in collaborative code reviews. This experience has deepened my technical skills while fostering a commitment to transparency and knowledge-sharing within the developer community.
+					</p>
+					<p className="my-4 text-lg md:text-xl lg:text-2xl">
+					In addition to my open source involvement, I&apos;ve volunteered my technical expertise to non-profit organizations. Serving on volunteer teams, I&apos;ve developed customized software solutions. These experiences highlight my dedication to using technology for positive change, a commitment I aim to carry forward in future roles.
+					</p>
 					<h2 className="headline mt-20 text-xl md:text-2xl lg:text-4xl">
 						Check out
 					</h2>

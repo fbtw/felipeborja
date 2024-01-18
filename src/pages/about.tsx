@@ -76,19 +76,30 @@ const AboutPage: NextPage<IProps> = ({ podcasts, jobs, education }) => {
 				</p>
 
 
-				<div className="flex justify-center mt-8">
+				<div className="flex flex-row justify-center mt-8 ">
 					<Button
-						href="https://www.linkedin.com/in/FelipeBorja-"
-						download={true}
-						className="group flex gap-2 whitespace-nowrap">
-						<div className="w-6 text-blue-500 group-hover:text-off-white dark:text-purple-500">
-							<Icon icon="LINKEDIN" />
+						href="https://www.github.com/fbtw"
+
+						className="group flex gap-2 whitespace-nowrap m-1">
+						<div className="w-6 text-blue-500 group-hover:text-off-white dark:text-purple-500 ">
+							<Icon icon="GITHUB" />
 						</div>
 						<div className="block headline group-hover:text-off-white">
-							Visit Linkedin
+							Visit Github
 						</div>
 					</Button>
+					<Button
+					href="https://play.google.com/store/apps/dev?id=8774751131767386028"
+					className="group flex gap-2 whitespace-nowrap m-1">
+					<div className="w-6 text-blue-500 group-hover:text-off-white dark:text-purple-500">
+						<Icon icon="PLAYSTORE" />
+					</div>
+					<div className="block headline group-hover:text-off-white">
+						Visit Playstore
+					</div>
+				</Button>
 				</div>
+
 			</Container>
 		</AnimatePage>
 	);

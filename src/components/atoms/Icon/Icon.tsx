@@ -5,6 +5,8 @@ import Instagram from 'public/assets/instagram.svg';
 import Linkedin from 'public/assets/linkedin.svg';
 import Menu from 'public/assets/menu.svg';
 import Twitter from 'public/assets/kofi.svg';
+import Playstore from 'public/assets/google-play-logo.svg';
+
 
 export interface IconProps {
 	icon:
@@ -14,7 +16,8 @@ export interface IconProps {
 		| 'INSTAGRAM'
 		| 'LINKEDIN'
 		| 'MENU'
-		| 'TWITTER';
+		| 'TWITTER'
+		| 'PLAYSTORE';
 }
 
 const Icon = ({ icon }: IconProps) => {
@@ -41,6 +44,9 @@ const Icon = ({ icon }: IconProps) => {
 			break;
 		case 'TWITTER':
 			Icon = Twitter;
+			break;
+		case 'PLAYSTORE':
+			Icon = Playstore;
 			break;
 		default:
 			break;
