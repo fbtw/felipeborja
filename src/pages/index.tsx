@@ -60,7 +60,7 @@ const IndexPage = () => {
 						specialised in mobile, web and backend development, QA testing, server maintenance and tech support.
 						I&apos;ve studied on both in-person and remote universities, finished a dozen of online courses.<br/>
 						Professionally I&apos;ve worked on several international consultancy companies and as a government contractor.
-						I&apos;ve have several personal projects, freelance jobs and also I&apos;ve work as a volunteer for nonprofit organizations, my favorite tools are{' '}
+						I&apos;ve work on many personal projects, had several freelance jobs and also volunteer for nonprofit organizations, my favorite tools are{' '}
 						<Typed
 							loop
 							typeSpeed={50}
